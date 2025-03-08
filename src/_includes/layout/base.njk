@@ -1,4 +1,4 @@
-{# <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -15,31 +15,6 @@
         {{ content | safe }}
     </main>
 
-    {% include "footer.njk" %}
-    <script src="/js/main.js"></script>
-</body>
-</html> #}
-
-<!DOCTYPE html>
-<html lang="{{ lang }}">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ meta.title }} | {{ site.name }}</title>
-    <meta name="description" content="{{ meta.description }}">
-    <meta name="keywords" content="{{ meta.keywords }}">
-    <link href="/css/main.css" rel="stylesheet">
-    
-    {# 多语言SEO标记 #}
-    {% for langCode in site.supportedLangs %}
-    <link rel="alternate" hreflang="{{ langCode }}"  href="{{ site.url }}/{{ langCode }}{{ page.url | replace('/' + page.lang, '') }}">
-    {% endfor %}
-</head>
-<body>
-    {% include "header.njk" %}
-    
-     <main class="container mx-auto px-4 py-8">
-        {{ content | safe }}
-    </main>
     {% include "footer.njk" %}
     <script src="/js/main.js"></script>
 </body>

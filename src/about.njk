@@ -1,20 +1,11 @@
 ---
 layout: layout/base.njk
-pagination:
-  data: site.supportedLangs
-  size: 1
-  alias: lang
-permalink: "{{ lang }}/about/index.html"
-eleventyComputed:
-  meta:
-    title: "{{ locales[lang].meta.about.title | safe }}"
-    description: "{{ locales[lang].meta.about.description | safe }}"
-    keywords: "{{ locales[lang].meta.about.keywords | safe }}"
+title: 关于我们
+description: 了解企业的发展历程与核心价值观
+keywords: 公司简介, 发展历史, 团队介绍
 ---
 
-{% set locale = locales[lang] %}
-<article>
-  <h1>{{ locale.nav.about }}</h1>
-  <p>{{ locale.content.about }}</p>
-  <button>{{ locale.buttons.cta }}</button>
+<article class="prose max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold">我们的故事</h2>
+    <p>自2010年成立以来，我们始终专注于...</p>
 </article>

@@ -1,26 +1,19 @@
 <header class="bg-white shadow-sm">
-   <nav>
-    <ul class="flex items-center justify-between">
-        {% for item in site.navStructure %}
-        <li>
-        <a href="/{{ lang }}{{ item.url }}">
-            {{ locales[lang].nav[item.key] }}
-        </a>
-        </li>
-        {% endfor %}
-    </ul>
-    
-    {# 语言切换器 #}
-    <div class="lang-switcher">
-        {% for langCode in site.supportedLangs %}
-        {% if langCode != lang %}
-            <a href="/{{ langCode }}{{ page.url | replace('/' + lang, '') }}"
-            hreflang="{{ langCode }}">
-            {{ langCode | upper }}
-            </a>
-        {% endif %}
-        {% endfor %}
-    </div>
+    <nav class="max-w-6xl mx-auto px-4 py-4" aria-label="Main navigation">
+        <div class="flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-blue-600">{{ site.name }}</a>
+            <ul class="hidden md:flex space-x-6">
+                {% for item in site.navLinks %}
+                <li>
+                    <a href="{{ item.url }}" 
+                       class="hover:text-blue-600 {% if page.url == item.url %}font-bold{% endif %}">
+                       {{ item.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+             <hr />
+
+        </div>
     </nav>
 </header>
-
