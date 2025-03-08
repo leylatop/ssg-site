@@ -1,0 +1,10 @@
+{
+    "name": "Leyla之家",
+    "navLinks": [
+        {"title": "首页", "url": "/"},
+        {"title": "产品特性", "url": "/feature/"},
+        {"title": "产品特性2", "url": "/feature-2/"},
+        {"title": "关于我们", "url": "/about/"},
+        {"title": "学习", "url": "/learn/"}
+    ]
+}

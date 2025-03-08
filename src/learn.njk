@@ -1,0 +1,43 @@
+---
+layout: layout/base.njk
+title: 学习
+description: day day up
+---
+
+<section>
+    <h1>Learn</h1>
+    <p>{{ "now2" | myFilter }}</p>
+    <h1>{{ "first" | concatThreeThings("second", "third") }}</h1>
+    <p>{{ "now3" | asyncFilter }}</p>
+    <p>{{ "now4" | asyncFilter2 }}</p>
+    {% user "Zach Leatherman", "zachleat" %} 
+    <hr/> 
+    {% userUniversal "Zach Leatherman", "zachleat" %} 
+    Zach likes to take long walks on Nebraska beaches. 
+    {% enduserUniversal %} 
+    <hr/> 
+    {% user3 name="Zach Leatherman", twitter="zachleat" %}
+
+    <hr/>
+    <!-- set 把myShortcode的返回值赋值给myVariableName -->
+    {% set "myVariableName1" %}
+    {% myShortcode %}
+    {% endset %}
+
+    <!-- 使用变量 -->
+    {{ myVariableName1 }}
+
+    <!-- setAsync 把myAsyncShortcode的返回值赋值给myVariableName -->
+    {% setAsync "myVariableName" %}
+    {% myAsyncShortcode %}
+    {% endsetAsync %}
+
+    <!-- Now use the variable -->
+    {{ myVariableName }}
+
+
+    <!-- 使用全局变量 -->
+    {{ myGlobalData }}
+    {{ fortythree }}
+    {{ fortytwo() }}
+</section>
