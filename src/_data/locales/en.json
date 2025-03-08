@@ -1,0 +1,56 @@
+{
+    "name": "Leyla's Home",
+    "meta": {
+        "home": {
+            "title": "Homepage | Leyla's Home",
+            "description": "Professional enterprise solutions provider",
+            "keywords": "products, services"
+        },
+        "about": {
+            "title": "About Us | Leyla's Home",
+            "description": "Our history and values",
+            "keywords": "about, history, values"
+        },
+        "feature2": {
+            "title": "Features2 | Leyla's Home",
+            "description": "Our features2",
+            "keywords": "features2, products, services"
+        },
+        "feature": {
+            "title": "Features | Leyla's Home",
+            "description": "Our features",
+            "keywords": "features, products, services"
+        }
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "features": "Features",
+        "feature-2": "Features2",
+        "learn": "Learn"
+    },
+    "content": {
+        "featureBlock": {
+            "title": "Product Landing Page"
+        },
+        "home": {
+            "welcome": "Welcome to"
+        },
+        "about": "About Us",
+        "feature": {
+            "title": "Features",
+            "description1": "Our features1-1",
+            "description2": "Our features1-2",
+            "description3": "Our features1-3"
+        },
+        "feature2": {
+            "title": "Features2",
+            "description1": "Our features2-1",
+            "description2": "Our features2-2",
+            "description3": "Our features2-3"
+        }
+    },
+    "buttons": {
+        "cta": "Contact Us"
+    }
+}

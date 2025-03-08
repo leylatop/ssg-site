@@ -1,0 +1,56 @@
+{
+    "name": "Leyla之家",
+    "meta": {
+      "home": {
+        "title": "首页 | Leyla之家",
+        "description": "专业企业解决方案提供商",
+        "keywords": "产品, 服务"
+      },
+      "about": {
+        "title": "关于我们 | Leyla之家",
+        "description": "我们的历史和价值观",
+        "keywords": "关于我们, 历史, 价值观"
+      },
+      "feature2": {
+        "title": "产品特性2 | Leyla之家",
+        "description": "我们的产品特性2",
+        "keywords": "产品特性2, 产品, 服务"
+      },
+      "feature": {
+        "title": "产品特性 | Leyla之家",
+        "description": "我们的产品特性",
+        "keywords": "产品特性, 产品, 服务"
+      }
+    },
+    "nav": {
+      "home": "首页",
+      "about": "关于我们",
+      "features": "产品特性",
+      "feature-2": "产品特性2",
+      "learn": "学习"
+    },
+    "content": {
+      "featureBlock": {
+        "title": "产品落地页"
+      },
+      "home": {
+        "welcome": "欢迎来到"
+      },
+      "about": "关于我们",
+      "feature": {
+        "title": "产品特性",
+        "description1": "产品特性1",
+        "description2": "产品特性2",
+        "description3": "产品特性3"
+      },
+      "feature2": {
+        "title": "产品特性2",
+        "description1": "产品特性2-1",
+        "description2": "产品特性2-2",
+        "description3": "产品特性2-3"
+      }
+    },
+    "buttons": {
+      "cta": "立即联系"
+    }
+  }

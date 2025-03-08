@@ -1,4 +1,12 @@
 module.exports = function(eleventyConfig) {
+    // 注入多语言全局变量
+    eleventyConfig.addGlobalData("lang", "en"); // 默认语言
+    eleventyConfig.addGlobalData("meta", {});  // 默认 meta
+    
+    // 多语言短代码
+    eleventyConfig.addShortcode("t", function(key) {
+      return this.ctx.locales[this.ctx.lang][key];
+    });
   // 复制静态资源     
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
