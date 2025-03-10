@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "dev": "npx @11ty/eleventy --serve & npx tailwindcss -i ./src/css/main.css -o ./_site/css/main.css --watch",
+    "build": "npx @11ty/eleventy && npx tailwindcss -i ./src/css/main.css -o ./_site/css/main.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "tailwindcss": "^4.0.11"
+    "tailwindcss": "^4.0.12"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.12"
   }
 }
