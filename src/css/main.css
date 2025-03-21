@@ -3,3 +3,26 @@
 body {
     background-color: #f0f0f0;
 }
+
+@theme {
+--color-clifford: #da373d;
+--color-primary: #000000;
+--color-secondary: #000000;
+--color-tertiary: #000000;
+--color-quaternary: #000000;
+--color-quinary: #000000;
+--color-senary: #000000;
+--color-septenary: #000000;
+}
+
+.text-clifford {
+    color: var(--color-clifford);
+}
+
+.bg-clifford {
+    background-color: var(--color-clifford);
+}
+
+.border-clifford {
+    border-color: var(--color-clifford);
+}

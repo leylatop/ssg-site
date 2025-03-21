@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="https://tailwindcss.com/plus-assets/build/iframe/compiled.css?hash=69c7d4476306025a24e9826cf6ed482d">
+    <link rel="modulepreload" href="https://tailwindcss.com/plus-assets/build/assets/iframe-react-C72_0lsw.js">
+    <link rel="modulepreload" href="https://tailwindcss.com/plus-assets/build/assets/client-ChDcy-h8.js">
+    <link rel="modulepreload" href="https://tailwindcss.com/plus-assets/build/assets/index-DTfie-aa.js">
+    <link rel="modulepreload" href="https://tailwindcss.com/plus-assets/build/assets/iframe-CBshCjZa.js">
+    <script type="module" src="https://tailwindcss.com/plus-assets/build/assets/iframe-react-C72_0lsw.js"></script>
+    <script>
+        window.addEventListener('load', () => window.setTimeout(() => {
+            const makeLink = (asset) => {
+                const link = document.createElement('link')
+
+                Object.keys(asset).forEach((attribute) => {
+                    link.setAttribute(attribute, asset[attribute])
+                })
+
+                return link
+            }
+
+            const loadNext = (assets, count) => window.setTimeout(() => {
+                if (count > assets.length) {
+                    count = assets.length
+
+                    if (count === 0) {
+                        return
+                    }
+                }
+
+                const fragment = new DocumentFragment
+
+                while (count > 0) {
+                    const link = makeLink(assets.shift())
+                    fragment.append(link)
+                    count--
+
+                    if (assets.length) {
+                        link.onload = () => loadNext(assets, 1)
+                        link.onerror = () => loadNext(assets, 1)
+                    }
+                }
+
+                document.head.append(fragment)
+            })
+
+            loadNext([], 3)
+        }))
+    </script>
+    <script type="module">(() => { var h = Object.create; var u = Object.defineProperty; var w = Object.getOwnPropertyDescriptor; var g = Object.getOwnPropertyNames; var C = Object.getPrototypeOf, A = Object.prototype.hasOwnProperty; var d = (r, e) => () => (e || r((e = { exports: {} }).exports, e), e.exports); var b = (r, e, a, n) => { if (e && typeof e == "object" || typeof e == "function") for (let f of g(e)) !A.call(r, f) && f !== a && u(r, f, { get: () => e[f], enumerable: !(n = w(e, f)) || n.enumerable }); return r }; var l = (r, e, a) => (a = r != null ? h(C(r)) : {}, b(e || !r || !r.__esModule ? u(a, "default", { value: r, enumerable: !0 }) : a, r)); var s = d((v, p) => { p.exports = window.React }); var x = d((k, m) => { m.exports = window.ReactDOMClient }); var o = l(s()), I = l(x()); var t = l(s(), 1); function S({ title: r, titleId: e, ...a }, n) { return t.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 20 20", fill: "currentColor", "aria-hidden": "true", "data-slot": "icon", ref: n, "aria-labelledby": e }, a), r ? t.createElement("title", { id: e }, r) : null, t.createElement("path", { fillRule: "evenodd", d: "M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z", clipRule: "evenodd" })) } var D = t.forwardRef(S), c = D; function i() { return o.default.createElement("div", { className: "l dn afg aoc" }, o.default.createElement("svg", { "aria-hidden": "true", className: "j u do pe asc bjd" }, o.default.createElement("defs", null, o.default.createElement("pattern", { x: "50%", y: -1, id: "0787a7c5-978c-4f66-83c7-11c213f99cb7", width: 200, height: 200, patternUnits: "userSpaceOnUse" }, o.default.createElement("path", { d: "M.5 200V.5H200", fill: "none" }))), o.default.createElement("rect", { fill: "url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)", width: "100%", height: "100%", strokeWidth: 0 })), o.default.createElement("div", { className: "fy vy auc avm axe czj dnq dwm dxa" }, o.default.createElement("div", { className: "fy vt dlx dqs dxj" }, o.default.createElement("img", { alt: "Your Company", src: "https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600", className: "pw" }), o.default.createElement("div", { className: "hu cnm dmm" }, o.default.createElement("a", { href: "#", className: "lg adw" }, o.default.createElement("span", { className: "agb amh aty auj aze azr bbl ber bgj bjg" }, "What's new"), o.default.createElement("span", { className: "lg aaz adr aze azp bat" }, o.default.createElement("span", null, "Just shipped v1.0"), o.default.createElement(c, { "aria-hidden": "true", className: "om bar" })))), o.default.createElement("h1", { className: "ho ayl azr azt azw baw dac" }, "Deploy to the cloud with confidence"), o.default.createElement("p", { className: "hm ayo azp azw bas dak" }, "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat."), o.default.createElement("div", { className: "ho la aaz acg" }, o.default.createElement("a", { href: "#", className: "agd amg atz aum ayp azr bdk bff bto car cat cba" }, "Get started"), o.default.createElement("a", { href: "#", className: "aze azr baw" }, "Learn more ", o.default.createElement("span", { "aria-hidden": "true" }, "\u2192")))), o.default.createElement("div", { className: "fy hs la vt cnl dmd dmx dni dqi dqq ece" }, o.default.createElement("div", { className: "vu wt crp dqi" }, o.default.createElement("div", { className: "ff agg all ati ber bga bjg dlu dua dwe" }, o.default.createElement("img", { alt: "App screenshot", src: "https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png", width: 2432, height: 1442, className: "vc agd ber bex bga" })))))) } document.body.innerHTML = '<div id="app"></div>'; (0, I.createRoot)(document.getElementById("app")).render(o.default.createElement(i)); })();
+    </script>
+    <style>
+        #app {
+            display: contents
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="l dn afg aoc"><svg aria-hidden="true" class="j u do pe asc bjd">
+                <defs>
+                    <pattern x="50%" y="-1" id="0787a7c5-978c-4f66-83c7-11c213f99cb7" width="200" height="200"
+                        patternUnits="userSpaceOnUse">
+                        <path d="M.5 200V.5H200" fill="none"></path>
+                    </pattern>
+                </defs>
+                <rect fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" width="100%" height="100%" stroke-width="0">
+                </rect>
+            </svg>
+            <div class="fy vy auc avm axe czj dnq dwm dxa">
+                <div class="fy vt dlx dqs dxj"><img alt="Your Company"
+                        src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&amp;shade=600"
+                        class="pw">
+                    <div class="hu cnm dmm"><a href="#" class="lg adw"><span
+                                class="agb amh aty auj aze azr bbl ber bgj bjg">What's new</span><span
+                                class="lg aaz adr aze azp bat"><span>Just shipped v1.0</span><svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                                    aria-hidden="true" data-slot="icon" class="om bar">
+                                    <path fill-rule="evenodd"
+                                        d="M8.22 5.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L11.94 10 8.22 6.28a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd"></path>
+                                </svg></span></a></div>
+                    <h1 class="ho ayl azr azt azw baw dac">Deploy to the cloud with confidence</h1>
+                    <p class="hm ayo azp azw bas dak">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+                        lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.</p>
+                    <div class="ho la aaz acg"><a href="#" class="agd amg atz aum ayp azr bdk bff bto car cat cba">Get
+                            started</a><a href="#" class="aze azr baw">Learn more <span aria-hidden="true">→</span></a>
+                    </div>
+                </div>
+                <div class="fy hs la vt cnl dmd dmx dni dqi dqq ece">
+                    <div class="vu wt crp dqi">
+                        <div class="ff agg all ati ber bga bjg dlu dua dwe"><img alt="App screenshot"
+                                src="https://tailwindcss.com/plus-assets/img/component-images/project-app-screenshot.png"
+                                width="2432" height="1442" class="vc agd ber bex bga"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
