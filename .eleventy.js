@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
   // 复制静态资源     
-  eleventyConfig.addPassthroughCopy("src/css");
+  // eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images")
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/lib");

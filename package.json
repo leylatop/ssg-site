@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev:11ty": "npx @11ty/eleventy --serve",
-    "dev:css": "npx tailwindcss -i ./src/css/main.css -o ./_site/css/main.css --watch",
+    "dev:css": "npx tailwindcss -i ./src/css/main.css -o ./_site/css/output.css --watch",
     "dev:win": "concurrently \"npm run dev:11ty\" \"npm run dev:css\"",
-    "dev": "npx @11ty/eleventy --serve & npx tailwindcss -i ./src/css/main.css -o ./_site/css/main.css --watch",
-    "build": "npx @11ty/eleventy && npx tailwindcss -i ./src/css/main.css -o ./_site/css/main.css"
+    "dev": "npx @11ty/eleventy --serve & npx tailwindcss -i ./src/css/main.css -o ./_site/css/output.css --watch",
+    "build": "npx @11ty/eleventy && npx tailwindcss -i ./src/css/main.css -o ./_site/css/output.css"
   },
   "keywords": [],
   "author": "",
