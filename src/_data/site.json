@@ -10,7 +10,7 @@
                 {"title": "产品特性2", "url": "/feature-2/"}
             ]
         },
-        {"title": "产品特性2", "url": "/feature-2/"},
-        {"title": "关于我们", "url": "/about/"}
+        {"title": "关于我们", "url": "/about/"},
+        {"title": "联系我们", "url": "/contact-us/"}
     ]
 }
